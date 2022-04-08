@@ -13,9 +13,9 @@ function useMethods(str) {
 
     words = words.map((z) => z.split("").reverse().join(""));
 
-    myReverse = words.join(" ")
+    myReverse = words.join(" ");
 
-    return { myReverse, countCharacters }
+    return { myReverse, countCharacters };
 }
 
 console.log(useMethods(myStr));
