@@ -1,12 +1,12 @@
 myArr = [2, 5, 9, 8, 1];
 
 function bubbleSort(arr) {
-    let swapped;
+    var swapped;
     do {
         swapped = false;
-        for (let i = 0; i < arr.length; i++) {
+        for (var i = 0; i < arr.length; i++) {
             if (arr[i] > arr[i + 1]) {
-                let tmp = arr[i];
+                var tmp = arr[i];
                 arr[i] = arr[i + 1];
                 arr[i + 1] = tmp;
                 swapped = true;
